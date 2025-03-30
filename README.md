@@ -44,7 +44,7 @@ Pre-signed URLs allow temporary, secure, and permissioned access to a specific S
 ##  Resources
 
 - [`aws-setup.md`](aws-setup.md): Full AWS configuration
-- [([SF_to_AWS_S3_Project_Execution_Guide.pdf](https://github.com/samarthg55/salesforce-aws-s3-file-uploader?tab=readme-ov-file#:~:text=Salesforce_AWS_S3_Uploader_Guide.pdf))](https://github.com/samarthg55/salesforce-aws-s3-file-uploader/blob/main/Salesforce_AWS_S3_Uploader_Guide.pdf): Visual guide
+- [SF_to_AWS_S3_Project_Execution_Guide.pdf](https://github.com/samarthg55/salesforce-aws-s3-file-uploader/blob/main/Salesforce_AWS_S3_Uploader_Guide.pdf): Visual guide
 - [Salesforce Dev Docs](https://developer.salesforce.com/)
 - [AWS S3 + Lambda Docs](https://docs.aws.amazon.com/)
 
