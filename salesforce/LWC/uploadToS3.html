@@ -1,0 +1,33 @@
+<template>
+    <lightning-card title="Upload File to S3" icon-name="custom:custom19">
+        <div class="slds-p-around_medium">
+            <lightning-input 
+                type="file" 
+                label="Choose File" 
+                onchange={handleFileChange}
+                accept="*/*"
+                name="fileUploader">
+            </lightning-input>
+
+            <template if:true={fileName}>
+                <div class="slds-box slds-theme_default slds-m-top_medium">
+                    <p><strong>Selected File:</strong> {fileName}</p>
+                    <p><strong>Size:</strong> {fileSize} KB</p>
+                    <p class="slds-text-color_success">✅ Ready to upload</p>
+                </div>
+            </template>
+
+            <lightning-button 
+                class="slds-m-top_medium"
+                variant="brand"
+                label="Upload"
+                onclick={handleUpload}
+                disabled={uploading}>
+            </lightning-button>
+
+            <template if:true={message}>
+                <p class="slds-m-top_medium">{message}</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>
